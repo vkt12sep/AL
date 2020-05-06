@@ -1,3 +1,4 @@
 {
-    "git.fetchOnPull": true
+    "git.fetchOnPull": true,
+    "al.defaultLaunchConfigurationName": "Your own server"
 }

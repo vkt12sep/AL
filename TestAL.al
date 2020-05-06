@@ -12,8 +12,12 @@ pageextension 50103 MyExtension extends "Customer List"
     trigger OnOpenPage()
     var
         myInt: Integer;
+
+        TestCU: Codeunit TestCodeUnit;
     begin
-        Message('Hello AL Go');
+
+        TestCU.CallForFirstRecursion();
+        Message('Hi to AL Go');
     end;
 
     var
